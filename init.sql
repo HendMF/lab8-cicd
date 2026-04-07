@@ -9,9 +9,7 @@ INSERT INTO tasks (name, status) VALUES
   ('Eggs',         'done'),
   ('Bread',        'pending'),
   ('Butter',       'pending'),
-  ('Orange juice', 'pending')
-ON CONFLICT DO NOTHING;
+  ('Orange juice', 'pending'),
+    ('Tea', 'pending')
 
-INSERT INTO tasks (name, status) VALUES
-  ('Tea', 'pending')
 ON CONFLICT DO NOTHING;
