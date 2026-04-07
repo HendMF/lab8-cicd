@@ -11,3 +11,7 @@ INSERT INTO tasks (name, status) VALUES
   ('Butter',       'pending'),
   ('Orange juice', 'pending')
 ON CONFLICT DO NOTHING;
+
+INSERT INTO tasks (name, status) VALUES
+  ('Tea', 'pending')
+ON CONFLICT DO NOTHING;
